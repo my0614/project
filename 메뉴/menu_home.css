@@ -1,0 +1,107 @@
+h1
+{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'YDI Bold';
+    color: #2d2d2d;
+    font-family: 'Indie Flower', cursive;
+    margin: 10px;
+
+}
+h2{
+    font-family: 'YDI Bold';
+    color: #2d2d2d;
+    font-family: 'Indie Flower', cursive;
+    margin: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 0px;
+    width: 50px;
+    color: black;
+  
+}
+
+header{border-bottom: 3px solid #6E6E6E;}
+#menu
+{
+   
+  list-style: none;
+  text-decoration: none;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    color: black;
+}
+
+li{
+    width: 200px;
+    margin: 0px;
+    display: inline-block;
+    padding : 0px;
+    color:black ;
+    font-size: 22px;
+    font-family: 'YDI Bold';
+    font-weight: 900;
+    vertical-align: middle;
+    line-height: 50px;
+    
+}
+#money
+{
+    display: inline-block;
+    width: 400px;
+    float : right;
+    margin: 20px;
+    margin-top : 30px !important;
+}
+input
+{
+    border : none;
+    padding: 15px;
+}
+.intro
+{
+    width: 800px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'YDI Bold';
+    
+    
+}
+.new
+{
+    cursor: pointer;
+    width : 880px;
+    height: 280px;
+    margin: 0px;
+    padding : 0px;
+    margin-top : 50px;
+   
+}
+.new2
+{
+    cursor: pointer;
+    display: inline;
+    width : 860px;
+    height: 275px;
+    margin-right: 80px;
+    padding : 0px;
+    float : right;
+    margin-top : 50px;
+}
+button
+{
+    float : right;
+    height: 40px;
+    width : 100px;
+    background-color:rgb(123, 98,81);
+    border : none;
+    font-size: 17px;
+    font-weight: 700;
+   margin : 65px 40px 0px 0px;
+   cursor: pointer;
+}

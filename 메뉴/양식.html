@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="menu.css">
+    <title>DSM식당_양식</title>
+</head>
+<body>
+   <header>
+       <a href="menu_home.html"><h1>DSM식당</h1></a>
+       <ul>
+        <li id="money">총 금액 : <input id="input" value="0" type="number"/>원 <p onclick="order();" id="order">주문하기</p></li>
+        <li> <a href="한식.html"><img id="menu" src="한식.png"></a>한식</li>
+        <li><a href="중식.html"><img id="menu" src="중식.png"></a>중식</li>
+        <li><a href="일식.html"><img id="menu" src="일식.png"></a>일식</li>
+        <li><a href="양식.html"><img id="menu" src="양식.png" style="  width: 110px;
+            height: 110px;"></a>양식</li>
+        </ul>
+   </header>
+   <div class="hover" style="margin-left: 210px;">
+    <img class="food" name="11000"src="피자.jpg"><br>
+    <span>페페로니피자</span> <span>11,000원</span>
+</div>
+<div class="hover">
+    <img class="food" name="9900" src="파스타.jpg"><br>
+    <span>토마토파스타</span> <span>9,900원</span>
+</div>
+<div class="hover">
+    <img class="food" name="9500" src="리조또.jpg"><br>
+    <span>화이트 리조또</span> <span>9,500원</span>
+</div>
+<div class="hover"  id = "hot">
+    <img class="food"name="38000"src="스테이크.jpg"><br>
+    <span>안심 스테이크</span> <span>38,000원</span>
+</div>
+<div class="hover"  id="hot" style="margin-left: 210px;">
+    <img class="food"name="8000" src="팬케이크.jpg"><br>
+    <span>허니 팬케이크</span> <span>8,000원</span>
+</div>
+
+<div class="hover" >
+    <img class="food" name="8500" src="까르보나라.jpg.png"><br>
+    <span>까르보나라</span> <span>8,500원</span>
+</div>
+
+<div class="hover" >
+    <img class="food" name="6500" src="샌드위치.png"><br>
+    <span>샌드위치</span> <span>6,500원</span>
+</div>
+
+<div class="hover" id="hot">
+    <img class="food"  name="9200" src="샐러드.png"><br>
+    <span>리코타치즈 샐러드</span> <span>9,200원</span>
+</div>
+
+<script src="menu.js"></script>
+</body>
+</html>

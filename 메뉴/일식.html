@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="menu.css">
+    <title>DSM식당_일식</title>
+</head>
+<body>
+   <header>
+        <a href="menu_home.html"><h1>DSM식당</h1></a>
+        <ul>
+            <li id="money">총 금액 : <input id="input" value="0" type="number"/>원 <p onclick="order();" id="order">주문하기</p></li>
+            <li> <a href="한식.html"><img id="menu" src="한식.png"></a>한식</li>
+            <li><a href="중식.html"><img id="menu" src="중식.png"></a>중식</li>
+            <li><a href="일식.html"><img id="menu" src="일식.png" style="  width: 110px;
+                height: 110px;"></a>일식</li>
+            <li><a href="양식.html"><img id="menu" src="양식.png"></a>양식</li>
+            </ul>
+   </header>
+   <div class="hover" id="effect" style="margin-left: 210px;">
+    <img class="food"name = "9000" src="치즈돈가스.jpg"><br>
+    <span>치즈듬뿍돈가스</span> <span>9,000원</span>
+</div>
+<div class="hover" id="hot">
+    <img class="food" name = "25000" src="연어.jpg"><br>
+    <span>연어 사시미</span> <span>25,000원</span>
+</div>
+<div class="hover">
+    <img class="food"name = "8000" src="오뎅탕.jpg"><br>
+    <span>얼큰한 오뎅탕</span> <span>8,000원</span>
+</div>
+<div class="hover" id="hot">
+    <img class="food" name = "12000" src="초밥.png"><br>
+    <span>1인 초밥세트</span> <span>12,000원</span>
+</div>
+<div class="hover" style="margin-left: 210px;">
+    <img class="food"name = "8000" src="카레.png"><br>
+    <span>일본식 카레</span> <span>8,000원</span>
+</div>
+<div class="hover">
+    <img class="food"name = "7500" src="우동.jpg"><br>
+    <span>일본식 우동</span> <span>7,500원</span>
+</div>
+<div class="hover">
+    <img class="food" name = "7500"src="새우튀김.jpg"><br>
+    <span>새우튀김</span> <span>7,500원</span>
+</div>
+<script src="menu.js"></script>
+</body>
+</html>

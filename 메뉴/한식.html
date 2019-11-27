@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="menu.css">
+    <title>DSM식당_한식</title>
+    
+</head>
+
+<body>
+   <header>
+        <a href="menu_home.html"><h1>DSM식당</h1></a>
+        <ul>
+            <li id="money">총 금액 : <input id="input" value="0" type="number"/>원 <p onclick="order();" id="order">주문하기</p></li>
+            <li> <a href="한식.html"><img id="menu" src="한식.png" style="  width: 110px;
+                height: 110px;"></a>한식</li>
+            <li><a href="중식.html"><img id="menu" src="중식.png"></a>중식</li>
+            <li><a href="일식.html"><img id="menu" src="일식.png"></a>일식</li>
+            <li><a href="양식.html"><img id="menu" src="양식.png"></a>양식</li>
+            </ul>  
+       
+   </header>
+   <div class="div">
+
+<div class="hover" style="margin-left: 210px;" > 
+    <img class="food"   src="비빔밥.jpg" name="8000"><br>
+    <span>야채비빔밥</span> <span>8,000원</span>
+</div>
+<div class="hover" id ="sale">
+    <img class="food"  name="28000" src="보쌈.jpg"><br>
+    <span>보쌈</span> <span>28,000원</span>
+</div>
+<div class="hover"  id ="sale" style="margin-top: 50px;">
+    <img class="food" name="9000"  src="닭갈비.jpg"><br>
+    <span>춘천식 닭갈비(1인분)</span> <span>9,000원</span>
+</div>
+<div class="hover">
+    <img class="food" name="7000" src="된장국.png"><br>
+    <span>엄마표 된장국</span> <span>7,000원</span>
+</div>
+   </div>
+
+   <div class="div">
+
+<div class="hover"  style="margin-left: 210px;">
+    <img class="food" name="8500" src="부대찌개.png"><br>
+    <span>부대찌개(1인분)</span> <span>8,500원</span>
+</div>
+<div class="hover">
+    <img class="food" name="2500" src="김밥.png"><br>
+    <span>김밥(1한줄)</span> <span>2,500원</span>
+</div>
+<div class="hover">
+    <img class="food" name="14000"src="갈비.png"><br>
+    <span>담양 숯불갈비(1인분)</span> <span>14,000원</span>
+</div>
+<div class="hover">
+    <img class="food" name="16000" src="삼계탕.jpg"><br>
+    <span>한방 삼계탕</span> <span>16,000원</span>
+</div>
+   </div>
+
+   <div class="div" >
+<div class="hover" id ="sale" style="margin-left: 210px;">
+    <img class="food" name="21000" src="코타리.jpg" ><br>
+    <span>매콤달콤 코다리찜 세트</span> <span>21,000원</span>
+</div>
+<div class="hover">
+    <img class="food" src="전.jpg"  name="10000" style="width : 260px"><br>
+    <span>해물파전</span> <span>10,000원</span>
+</div>
+</div>
+<script src="menu.js"></script>
+</body>
+</html>
