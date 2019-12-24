@@ -1,0 +1,40 @@
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 20px;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+span {
+    font-size: 2em;
+  
+}
+.DNA{
+  
+    margin : 0%;
+    margin-left: 500px;
+    display: inline-block;
+}
+#DNA {
+    width: 80%;
+    height: 510px;
+    font-family: 'Roboto', sans-serif;
+}
+.RNA{
+    margin : 0%;
+    margin-left: 220px;
+    display: inline-block;
+    
+}
+#RNA {
+
+    width: 305px;
+    height: 520px;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
