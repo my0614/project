@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+li{ 
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+}
+
+</style>
+<body>
+    <h1>로그인</h1>
+
+    <form action="/login" method="POST">
+        <ul>
+            <li>아이디</li>
+            <li><input  type="text" name ="id" /></li>
+            <li>비밀번호</li>
+            <li><input  type="password" name="pw"/></li>
+            <li> <input type="submit" value =" 로그인"></li>
+        
+        </ul>
+
+    </form>
+    <li><a href="/join"> <button>회원가입</button></a> </li>
+    
+</body>
+</html>
