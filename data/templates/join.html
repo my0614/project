@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+h1 { 
+    font-weight: bold;
+    font-size: 3em;
+    margin-left: 70px;
+}
+div { 
+     border : 1px solid black;
+    width: 300px;
+    height: 400px;
+
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+button { 
+    width: 180px;
+    height: 40px;
+    background-color: gray;
+    border: none;
+}
+</style>
+<body>
+   
+<div>
+    <form  action="/home" method="POST">
+        <h1> login </h1>
+        <ul>
+            <li>아이디</li>
+            <li><input type="text" name = "myid"/></li>
+            <li>비밀번호</li>
+            <li><input type="password" name ="mypw"/></li>
+            <li>이름</li>
+            <li><input type="text" name ="myname"/></li>
+            <li><input type="submit"></li>
+           
+        </ul>
+    </form>
+    
+</div>
+</body>
+</html>
